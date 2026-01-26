@@ -1,0 +1,145 @@
+{
+  "battle_won_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:37.393054"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "dead_allies_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:37.393057"
+    ],
+    "values": [
+      3.0
+    ]
+  },
+  "dead_enemies_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:37.393051"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "ep_length_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:37.393060"
+    ],
+    "values": [
+      27.0
+    ]
+  },
+  "epsilon": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:37.393064"
+    ],
+    "values": [
+      1.0
+    ]
+  },
+  "return_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:37.392979"
+    ],
+    "values": [
+      1.9726027397260273
+    ]
+  },
+  "return_std": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:37.393045"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_battle_won_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:47.370341"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_dead_allies_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:47.370343"
+    ],
+    "values": [
+      3.0
+    ]
+  },
+  "test_dead_enemies_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:47.370336"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_ep_length_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:47.370345"
+    ],
+    "values": [
+      21.87
+    ]
+  },
+  "test_return_mean": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:47.370274"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_return_std": {
+    "steps": [
+      27
+    ],
+    "timestamps": [
+      "2026-01-23T13:20:47.370330"
+    ],
+    "values": [
+      0.0
+    ]
+  }
+}

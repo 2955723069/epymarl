@@ -1,0 +1,145 @@
+{
+  "battle_won_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:17:22.724598"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "dead_allies_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:17:22.724593"
+    ],
+    "values": [
+      3.0
+    ]
+  },
+  "dead_enemies_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:17:22.724584"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "ep_length_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:17:22.724603"
+    ],
+    "values": [
+      24.0
+    ]
+  },
+  "epsilon": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:17:22.724609"
+    ],
+    "values": [
+      1.0
+    ]
+  },
+  "return_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:17:22.724508"
+    ],
+    "values": [
+      0.6575342465753424
+    ]
+  },
+  "return_std": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:17:22.724575"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_battle_won_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:18:10.235154"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_dead_allies_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:18:10.235151"
+    ],
+    "values": [
+      0.31
+    ]
+  },
+  "test_dead_enemies_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:18:10.235146"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_ep_length_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:18:10.235156"
+    ],
+    "values": [
+      60.0
+    ]
+  },
+  "test_return_mean": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:18:10.235079"
+    ],
+    "values": [
+      0.2827397260273973
+    ]
+  },
+  "test_return_std": {
+    "steps": [
+      24
+    ],
+    "timestamps": [
+      "2026-01-21T22:18:10.235140"
+    ],
+    "values": [
+      0.4362084372327974
+    ]
+  }
+}

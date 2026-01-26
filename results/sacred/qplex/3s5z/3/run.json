@@ -1,0 +1,93 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/qh/yuanma/epymarl/src",
+    "dependencies": [
+      "numpy==2.3.3",
+      "pyyaml==5.3.1",
+      "sacred==0.8.7",
+      "torch==2.8.0+cu126"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_b2cc1db06d11795e4f8cf6a3b0165fa1.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_29fd448eb2929a57e5fd2547c431175b.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_80685d67fab61f6e71e93fbe28085531.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-01-18T06:21:02.581587",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD Ryzen 7 9700X 8-Core Processor",
+    "gpus": {
+      "driver_version": "591.74",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 4070 SUPER",
+          "persistence_mode": true,
+          "total_memory": 12282
+        }
+      ]
+    },
+    "hostname": "qh",
+    "os": [
+      "Linux",
+      "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.11.13"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "env_args": {
+        "map_name": "3s5z"
+      }
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=3s5z"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-01-18T06:16:09.091414",
+  "status": "INTERRUPTED",
+  "stop_time": "2026-01-18T06:21:02.583810"
+}

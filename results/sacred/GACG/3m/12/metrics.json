@@ -1,0 +1,145 @@
+{
+  "battle_won_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:28:41.869232"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "dead_allies_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:28:41.869225"
+    ],
+    "values": [
+      3.0
+    ]
+  },
+  "dead_enemies_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:28:41.869228"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "ep_length_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:28:41.869236"
+    ],
+    "values": [
+      28.0
+    ]
+  },
+  "epsilon": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:28:41.869248"
+    ],
+    "values": [
+      1.0
+    ]
+  },
+  "return_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:28:41.869036"
+    ],
+    "values": [
+      1.9726027397260273
+    ]
+  },
+  "return_std": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:28:41.869214"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_battle_won_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:29:04.297286"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "test_dead_allies_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:29:04.297277"
+    ],
+    "values": [
+      2.84
+    ]
+  },
+  "test_dead_enemies_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:29:04.297284"
+    ],
+    "values": [
+      0.23
+    ]
+  },
+  "test_ep_length_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:29:04.297288"
+    ],
+    "values": [
+      33.33
+    ]
+  },
+  "test_return_mean": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:29:04.297207"
+    ],
+    "values": [
+      2.1594520547945204
+    ]
+  },
+  "test_return_std": {
+    "steps": [
+      28
+    ],
+    "timestamps": [
+      "2026-01-21T22:29:04.297271"
+    ],
+    "values": [
+      0.6462081613556033
+    ]
+  }
+}

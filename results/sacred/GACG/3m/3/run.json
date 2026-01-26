@@ -1,0 +1,98 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/qh/yuanma/epymarl/src",
+    "dependencies": [
+      "numpy==2.3.3",
+      "pyyaml==5.3.1",
+      "sacred==0.8.7",
+      "torch==2.8.0+cu126"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_5b5e2012a5d1d50e8dfc6a08a26a444e.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_80685d67fab61f6e71e93fbe28085531.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/home/qh/anaconda3/envs/pymarl/lib/python3.11/site-packages/sacred/config/captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n",
+    "  File \"/home/qh/yuanma/epymarl/src/main.py\", line 49, in my_main\n    from run import run\n",
+    "  File \"/home/qh/yuanma/epymarl/src/run.py\", line 12, in <module>\n    from controllers import REGISTRY as mac_REGISTRY\n",
+    "  File \"/home/qh/yuanma/epymarl/src/controllers/__init__.py\", line 7, in <module>\n    from .gacg_controller import GroupMessageMAC\n",
+    "  File \"/home/qh/yuanma/epymarl/src/controllers/gacg_controller.py\", line 20, in <module>\n    from components.attention_module import AttentionModule\n",
+    "ModuleNotFoundError: No module named 'components.attention_module'\n"
+  ],
+  "heartbeat": "2026-01-21T22:10:16.015632",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD Ryzen 7 9700X 8-Core Processor",
+    "gpus": {
+      "driver_version": "591.74",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 4070 SUPER",
+          "persistence_mode": true,
+          "total_memory": 12282
+        }
+      ]
+    },
+    "hostname": "qh",
+    "os": [
+      "Linux",
+      "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.11.13"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "env_args": {
+        "map_name": "3m"
+      }
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=3m"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-01-21T22:10:16.006684",
+  "status": "FAILED",
+  "stop_time": "2026-01-21T22:10:16.016200"
+}

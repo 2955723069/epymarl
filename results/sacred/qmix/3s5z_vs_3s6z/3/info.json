@@ -1,0 +1,174 @@
+{
+  "battle_won_mean": [
+    0.0,
+    0.0
+  ],
+  "battle_won_mean_T": [
+    45,
+    10046
+  ],
+  "dead_allies_mean": [
+    8.0,
+    8.0
+  ],
+  "dead_allies_mean_T": [
+    45,
+    10046
+  ],
+  "dead_enemies_mean": [
+    0.0,
+    0.009708737864077669
+  ],
+  "dead_enemies_mean_T": [
+    45,
+    10046
+  ],
+  "ep_length_mean": [
+    45.0,
+    48.54854368932039
+  ],
+  "ep_length_mean_T": [
+    45,
+    10046
+  ],
+  "episode": [
+    207
+  ],
+  "episode_T": [
+    10046
+  ],
+  "epsilon": [
+    1.0,
+    0.810342
+  ],
+  "epsilon_T": [
+    45,
+    10046
+  ],
+  "grad_norm": [
+    6.863193511962891
+  ],
+  "grad_norm_T": [
+    1564
+  ],
+  "loss": [
+    1.6602184772491455
+  ],
+  "loss_T": [
+    1564
+  ],
+  "q_taken_mean": [
+    0.03321118854805637
+  ],
+  "q_taken_mean_T": [
+    1564
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 3.2395209580838316
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 4.0269533748037905
+    }
+  ],
+  "return_mean_T": [
+    45,
+    10046
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.6649931035162905
+    }
+  ],
+  "return_std_T": [
+    45,
+    10046
+  ],
+  "target_mean": [
+    0.09834724679932265
+  ],
+  "target_mean_T": [
+    1564
+  ],
+  "td_error_abs": [
+    0.8668909097266624
+  ],
+  "td_error_abs_T": [
+    1564
+  ],
+  "test_battle_won_mean": [
+    0.0,
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    45,
+    10046
+  ],
+  "test_dead_allies_mean": [
+    7.23,
+    7.08
+  ],
+  "test_dead_allies_mean_T": [
+    45,
+    10046
+  ],
+  "test_dead_enemies_mean": [
+    0.99,
+    1.08
+  ],
+  "test_dead_enemies_mean_T": [
+    45,
+    10046
+  ],
+  "test_ep_length_mean": [
+    103.06,
+    122.78
+  ],
+  "test_ep_length_mean_T": [
+    45,
+    10046
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 3.457035928143711
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 5.831781437125743
+    }
+  ],
+  "test_return_mean_T": [
+    45,
+    10046
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.9815035137549706
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.2779390397062818
+    }
+  ],
+  "test_return_std_T": [
+    45,
+    10046
+  ]
+}

@@ -1,0 +1,30 @@
+from .q_learner import QLearner
+from .coma_learner import COMALearner
+from .qtran_learner import QLearner as QTranLearner
+from .actor_critic_learner import ActorCriticLearner
+from .actor_critic_pac_learner import PACActorCriticLearner
+from .actor_critic_pac_dcg_learner import PACDCGLearner
+from .maddpg_learner import MADDPGLearner
+from .ppo_learner import PPOLearner
+from .dmaq_qatten_learner import DMAQ_qattenLearner
+from .group_learner import GROUPLearner
+from .gacg_learner import GroupQLearner
+from .LTSCG_learner import LTSCGLearner
+
+
+
+
+REGISTRY = {}
+REGISTRY["q_learner"] = QLearner
+REGISTRY["coma_learner"] = COMALearner
+REGISTRY["qtran_learner"] = QTranLearner
+REGISTRY["actor_critic_learner"] = ActorCriticLearner
+REGISTRY["maddpg_learner"] = MADDPGLearner
+REGISTRY["ppo_learner"] = PPOLearner
+REGISTRY["pac_learner"] = PACActorCriticLearner
+REGISTRY["pac_dcg_learner"] = PACDCGLearner
+REGISTRY["dmaq_qatten_learner"] = DMAQ_qattenLearner
+REGISTRY["group_learner"] = GROUPLearner
+REGISTRY["gacg_learner"] = GroupQLearner
+REGISTRY["LTSCG_learner"] = LTSCGLearner
+
