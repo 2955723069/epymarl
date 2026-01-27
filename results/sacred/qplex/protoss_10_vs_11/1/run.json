@@ -1,0 +1,100 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/qh/yuanma/epymarl/src",
+    "dependencies": [
+      "numpy==2.3.3",
+      "pyyaml==5.3.1",
+      "sacred==0.8.7",
+      "torch==2.8.0+cu126"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "ba0d526c021d124118c5233a31ab3edfe8ba2fee",
+        "dirty": false,
+        "url": "git://home/qh/yuanma/epymarl"
+      },
+      {
+        "commit": "ba0d526c021d124118c5233a31ab3edfe8ba2fee",
+        "dirty": false,
+        "url": "git://home/qh/yuanma/epymarl"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_5b5e2012a5d1d50e8dfc6a08a26a444e.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_1a4c65db354ed12e6924dd672208cc3c.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-01-27T03:02:27.489666",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD Ryzen 7 9700X 8-Core Processor",
+    "gpus": {
+      "driver_version": "591.74",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 4070 SUPER",
+          "persistence_mode": true,
+          "total_memory": 12282
+        }
+      ]
+    },
+    "hostname": "qh",
+    "os": [
+      "Linux",
+      "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.11.13"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "env_args": {
+        "map_name": "protoss_10_vs_11"
+      }
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=protoss_10_vs_11"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-01-26T13:55:00.434993",
+  "status": "COMPLETED",
+  "stop_time": "2026-01-27T03:02:27.470135"
+}
